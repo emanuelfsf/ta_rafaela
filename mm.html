@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menina vítima de Fake News</title>
+    <link rel="icon" type="image/png" href="proje.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: black;
+            color: #fff;
+        }
+        .header {
+            background-color: #2c2c2c;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 1px solid #444;
+        }
+        h1, h3 {
+            margin: 0;
+        }
+        .layout {
+            display: flex;
+            flex-grow: 1;
+        }
+        .leftSide {
+            background-color: #2c2c2c;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 300px;
+        }
+        .leftSide ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .leftSide ul li {
+            margin-bottom: 10px;
+        }
+        .leftSide ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .leftSide ul li a:hover {
+            text-decoration: underline;
+        }
+        .body {
+            padding: 20px;
+            flex-grow: 2;
+            background-color: #1a1a1a;
+            border-left: 1px solid #444;
+            border-right: 1px solid #444;
+        }
+        .footer {
+            background-color: #2c2c2c;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            border-top: 1px solid #444;
+        }
+        a {
+            color: white;
+        }
+        a:hover, .leftSide ul li a:hover {
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Portal Rafaela</h1>
+        <h3>Menina se suicida após <i>Fake News</i> viralizar.</h3>
+    </div>
+    <section class="layout" id="layout">
+        <div class="leftSide">
+            <ul>
+                <strong>
+                    <li><h3>Tópicos:</h3></li>
+                    <li><a href="#G1">Notícia no G1</a></li>
+                    <li><a href="#gazeta">Gazeta do Povo</a></li>
+                    <li><a href="#Metropoles">Metropoles</a></li>
+                    <li><a href="#footer">Sobre Nós</a></li>
+                </strong>
+            </ul>
+        </div>
+        <div class="body">
+            <div>
+                <h2>Quem é Jéssica Vitória Canedo?</h2>
+                <p>
+                    Jéssica Vitória Canedo é uma jovem que se tornou tristemente conhecida após sua morte trágica e os eventos que a precederam. Nascida em Minas Gerais, aos 22 anos de idade, ela foi vítima de uma série de acontecimentos nefastos nas redes sociais, onde falsas conversas com o humorista Whindersson Nunes foram divulgadas, levando a ataques virtuais e a uma exposição dolorosa de sua vida privada. Esses eventos, juntamente com seus próprios problemas psicológicos e lutas contra a depressão, culminaram em sua trágica morte, que foi um duro golpe para sua família e amigos, além de gerar reflexões sobre os perigos do cyberbullying e da disseminação de fake news nas redes sociais.</p>
+            </div>
+
+            <div class="G1">
+                <h2>No site G1:</h2>
+                <p>Os autores afirmam que a morte da jovem Jéssica, de 22 anos, pode ter sido influenciada por comentários, como descrito na passagem retirada do site "Comentários podem ter influenciado na morte de Jéssica". O site afirma que a garota foi vítima de fake news na internet, disseminadas pelas redes sociais da Choquei, como pode ser visto no trecho a seguir:</p>
+                <blockquote>
+                    <p>"Dias antes da morte, o nome de Jéssica foi alvo de fake news. Prints falsos que simulavam uma conversa entre ela e o humorista Whindersson Nunes foram divulgados por perfis de fofoca em redes sociais. Com isso, ela começou a sofrer ataques na internet. Jessica chegou a publicar uma mensagem no Instagram, pedindo a exclusão dos posts. O humorista também apontou que as mensagens eram falsas".</p>
+                </blockquote>
+            </div>
+        
+            <div class="gazeta">
+                <h2>No site da Gazeta do Povo:</h2>
+                <p>Não afirma nada sobre a matéria da Choquei ter levado a garota a tirar sua própria vida, mas afirma que a jovem denunciou os ataques, como visto a seguir:</p>
+                <blockquote>
+                    <p>"Jovem denunciou ataques e foi ironizada por dono da Choquei".</p>
+                </blockquote>
+                <p>Além disso, mostra falas da jovem sobre o assunto:</p>
+                <blockquote>
+                    <p>“Vocês estão falando da minha aparência, da minha classe social, xingando minha família, ameaçando, me chamando de interesseira, me comparando com as ex’s dele… Vocês não sabem como está o psicológico de quem está recebendo os xingamentos e as ameaças”.</p>
+                </blockquote>
+                <p>Também revela que a conta responsável pela morte de Jéssica incluiu a política no meio disso tudo:</p>
+                <blockquote>
+                    <p>"Dono da Choquei já disseminou fake news para favorecer governo Lula".</p>
+                </blockquote>
+            </div>
+        
+            <div class="Metropoles">
+                <h2>No site Metropoles:</h2>
+                <p>Mostra que a garota virou assunto e que o famoso Whindersson Nunes afirma que nunca havia conhecido a mesma:</p>
+                <blockquote>
+                    <p>"Jéssica virou assunto nas redes sociais após ter conversas falsas com Whindersson Nunes vazadas na web. A notícia da morte da jovem foi dada pela família, por meio do Instagram, nesta sexta-feira (22/12). Segundo os parentes, antes do falso exposed, a moça já sofria com problemas psicológicos, além de lidar com a depressão".</p>
+                </blockquote>
+                <p>Prints do diálogo com o humorista surgiram na web no último dia 18, porém ele negou e afirmou que nunca havia conhecido Jéssica, que morava em Minas Gerais:</p>
+                <blockquote>
+                    <p>“Eu não faço ideia de quem seja essa moça e isso é um print fake"."</p>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <ul>
+            <strong>
+            
+            <h3>Sobre Nós:</h3>
+            <li><a href="https://www.instagram.com/https_3manel/">Instagram</a></li>
+            <li><a href="https://wa.me/5531986900401">WhatsApp</a></li>
+            <li><a href="https://twitter.com/tartaruga_cha">Twitter</a></li>
+            <li><a href="#laiout">Início</a></li>
+            </strong>
+        </ul>
+    </div>
+</body>
+</html>
